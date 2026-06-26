@@ -53,15 +53,20 @@ npm install
 **Create a virtual environment and install the required Python packages.**
 
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
 
 **4. Configure Environment Variables:**
 **You must provide your own Google Gemini API keys for the cloud generation routing. Create a file named .env in the root directory of the project and add your keys:**
 
 # Primary and fallback keys for Cloud LLM generation
+
 GOOGLE_API_KEY=your_primary_gemini_api_key_here
+
 GOOGLE_API_KEY_BACKUP=your_backup_gemini_api_key_here
+
 (Note: Do not wrap the keys in quotes. The .gitignore is pre-configured to ensure this file is never pushed to public repositories).
 
 🎮 Usage
