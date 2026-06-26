@@ -61,7 +61,7 @@ pip install -r requirements.txt
 **4. Configure Environment Variables:**
 **You must provide your own Google Gemini API keys for the cloud generation routing. Create a file named .env in the root directory of the project and add your keys:**
 
-# Primary and fallback keys for Cloud LLM generation
+Primary and fallback keys for Cloud LLM generation
 
 GOOGLE_API_KEY=your_primary_gemini_api_key_here
 
@@ -75,7 +75,9 @@ FlexRoute is designed for seamless local booting via a Windows Batch script.
 Simply double-click the start_flexroute.bat file in the root directory. This script automates the entire boot sequence:
 
 a. Wakes up the local Ollama LLM API.
+
 b. Activates the Python virtual environment and boots the FastAPI backend on port 8000.
+
 c. Launches the React/Electron interactive desktop application.
 
 To close the application, simply exit the Electron window and close the backend terminal.
