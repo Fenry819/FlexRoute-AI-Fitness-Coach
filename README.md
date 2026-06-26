@@ -42,6 +42,7 @@ Before installing FlexRoute, ensure you have the following installed on your mac
 **1. Clone the repository:**
 
 git clone [https://github.com/Fenry819/FlexRoute-AI-Fitness-Coach.git](https://github.com/Fenry819/FlexRoute-AI-Fitness-Coach.git)
+
 cd FlexRoute-AI-Fitness-Coach
 
 **2. Install Frontend Dependencies:**
