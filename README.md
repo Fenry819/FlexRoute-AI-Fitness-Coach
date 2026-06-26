@@ -83,6 +83,6 @@ c. Launches the React/Electron interactive desktop application.
 
 To close the application, simply exit the Electron window and close the backend terminal.
 
-🤝 Disclaimer & License
+## 🤝 Disclaimer & License
 
 This project is an open-source portfolio piece created to demonstrate multi-agent LLM orchestration, hybrid cloud/local routing, and full-stack integration. FlexRoute provides AI-generated fitness advice and should not replace professional medical or clinical guidance.
