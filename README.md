@@ -61,7 +61,7 @@ pip install -r requirements.txt
 **4. Configure Environment Variables:**
 **You must provide your own Google Gemini API keys for the cloud generation routing. Create a file named .env in the root directory of the project and add your keys:**
 
-* Primary and fallback keys for Cloud LLM generation
+# Primary and fallback keys for Cloud LLM generation
 
 GOOGLE_API_KEY=your_primary_gemini_api_key_here
 
