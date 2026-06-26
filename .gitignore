@@ -1,0 +1,15 @@
+venv/
+.env
+__pycache__/
+node_modules/
+
+# Databases (CRITICAL: Never upload user data)
+checkpoints.sqlite
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Files & Old Scripts
+abort_signal.tmp
+temp_*
+desktop_app.py
